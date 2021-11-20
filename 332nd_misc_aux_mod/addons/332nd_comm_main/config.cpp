@@ -109,37 +109,73 @@ class RscDisplayMain : RscStandardDisplay
 		class ConnectDiscord : RscButton 
 		{
 			idc = -1;
-			text = "Join the 332nd Legion Discord!";
+			text = "Join Server #1";
 			style = 2;
-			url = "https://discord.gg/EYbu9QzfBN";
-			colorBackground[] = { 0, 0, 0, 0.4 };
+			onbuttonclick = "connectToServer ['45.13.247.214', 2322, '332nd']";
+			colorBackground[] = { 0, 0, 0, 0.7 };
 			colorBackgroundActive[] = { 1,0,0, 0,2 };
 			soundEnter[] = { "\332nd_main\ui\Hover_Sound.ogg",0.3,1 };
 			soundPush[] = { "\332nd_main\ui\Click_Sound.ogg",0.7,1 };
 			borderSize = 0.054;
 			colorBorder[] = { 0,0,0,0 };
-			x = "SafeZoneXAbs + 0.425 * SafeZoneW";
-			y = "1.5 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))";
-			w = "12 * (((safezoneW / safezoneH) min 1.2) / 40)";
-			h = "((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+			x = "safeZoneX + 0.2 * safeZoneW";
+			y = "safeZoneY + 0.2 * safeZoneH";
+			w = "0.25";
+			h = "0.05";
 
 		};
 		class ConnectVK : RscButton 
 		{
 			idc = -1;
-			text = "Join the 332nd Legion Discord!";
+			text = "Join Server #2";
 			style = 2;
-			url = "https://discord.gg/EYbu9QzfBN";
-			colorBackground[] = { 0, 0, 0, 0.4 };
+			onbuttonclick = "connectToServer ['45.13.247.214', 2332, '332nd']";
+			colorBackground[] = { 0, 0, 0, 0.7 };
 			colorBackgroundActive[] = { 1,0,0, 0,2 };
 			soundEnter[] = { "\332nd_main\ui\Hover_Sound.ogg",0.3,1 };
 			soundPush[] = { "\332nd_main\ui\Click_Sound.ogg",0.7,1 };
 			borderSize = 0.054;
 			colorBorder[] = { 0,0,0,0 };
-			x = "SafeZoneXAbs + 0.425 * SafeZoneW";
-			y = "1.5 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))";
-			w = "12 * (((safezoneW / safezoneH) min 1.2) / 40)";
-			h = "((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+			x = "safeZoneX + safeZoneW - 0.6";
+			y = "safeZoneY + 0.2 * safeZoneH";
+			w = "0.25";
+			h = "0.05";
+
+		};
+		class ConnectServerLib : RscButton
+		{
+			idc = -1;
+			text = "Join the Liberation Server";
+			style = 2;
+			onbuttonclick = "connectToServer ['45.13.247.214', 2362, '332nd']";
+			colorBackground[] = { 0, 0, 0, 0.7 };
+			colorBackgroundActive[] = { 1,0,0, 0,2 };
+			soundEnter[] = { "\332nd_main\ui\Hover_Sound.ogg",0.3,1 };
+			soundPush[] = { "\332nd_main\ui\Click_Sound.ogg",0.7,1 };
+			borderSize = 0.054;
+			colorBorder[] = { 0,0,0,0 };
+			x = "safeZoneX + 0.2 * safeZoneW";
+			y = "safeZoneY + safeZoneH - 0.5";
+			w = "0.25";
+			h = "0.05";
+
+		};
+		class ConnectServerEvent : RscButton
+		{
+			idc = -1;
+			text = "Join the Event Server";
+			style = 2;
+			onbuttonclick = "connectToServer ['45.13.247.214', 2342, '332nd']";
+			colorBackground[] = { 0, 0, 0, 0.7 };
+			colorBackgroundActive[] = { 1,0,0, 0,2 };
+			soundEnter[] = { "\332nd_main\ui\Hover_Sound.ogg",0.3,1 };
+			soundPush[] = { "\332nd_main\ui\Click_Sound.ogg",0.7,1 };
+			borderSize = 0.054;
+			colorBorder[] = { 0,0,0,0 };
+			x = "safeZoneX + safeZoneW - 0.6";
+			y = "safeZoneY + safeZoneH - 0.5";
+			w = "0.25";
+			h = "0.05";
 
 		};
 
