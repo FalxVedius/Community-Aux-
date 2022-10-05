@@ -63,7 +63,96 @@ class CfgMusic
 		"JourneyWest",
 		"PeacekeeperII",
 		"ProfessionalExecution",
-		"WolfintheDark"
+		"WolfintheDark",
+		"MainTheme",
+		"MapsOfTheWorld",
+		"ReadyForBattle",
+		"Shamburger",
+		"BeatBehind",
+		"Drizzle",
+		"TStation",
+		"DelDiablo",
+		"Wonderous",
+		"GodMode",
+		"SABER",
+		"LoveandWill",
+		"SoutheastSide",
+		"ShookiesintheBank",
+		"FleshandIcecream",
+		"RichLeather",
+		"BadHarvest",
+		"MonkeyBook",
+		"PorkParts",
+		"Tazer",
+		"OperationMonkey",
+		"Crickets",
+		"RideLawrence",
+		"BassBag"
+	};
+	class DelDiablo //Combat
+	{
+		dlc = "332nd";
+		name = "10. Del Diablo (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat_Night";
+		sound[] =
+		{
+			"\332nd_music\music\DelDiablo.ogg",
+			1,
+			1
+		};
+		duration = 289;
+	};
+	class SoutheastSide //Combat
+	{
+		dlc = "332nd";
+		name = "10. Southeast Side (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat_Night";
+		sound[] =
+		{
+			"\332nd_music\music\SoutheastSide.ogg",
+			1,
+			1
+		};
+		duration = 282;
+	};
+	class ShookiesintheBank //Combat
+	{
+		dlc = "332nd";
+		name = "9. Shookies in the Bank (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat_Night";
+		sound[] =
+		{
+			"\332nd_music\music\ShookiesintheBank.ogg",
+			1,
+			1
+		};
+		duration = 279;
+	};
+	class BadHarvest //Combat
+	{
+		dlc = "332nd";
+		name = "8. Bad Harvest (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat_Night";
+		sound[] =
+		{
+			"\332nd_music\music\BadHarvest.ogg",
+			1,
+			1
+		};
+		duration = 289;
+	};
+	class PorkParts //Combat
+	{
+		dlc = "332nd";
+		name = "7. Pork Parts (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat_Night";
+		sound[] =
+		{
+			"\332nd_music\music\PorkParts.ogg",
+			1,
+			1
+		};
+		duration = 292;
 	};
 	class WolfintheDark //Combat
 	{
@@ -142,6 +231,175 @@ class CfgMusic
 			1
 		};
 		duration = 182;
+	};
+	class MainTheme //Combat
+	{
+		dlc = "332nd";
+		name = "55. Main Theme (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\MainTheme.ogg",
+			1,
+			1
+		};
+		duration = 141;
+	};
+	class BeatBehind //Combat
+	{
+		dlc = "332nd";
+		name = "54. Beat Behind (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\BeatBehind.ogg",
+			1,
+			1
+		};
+		duration = 282;
+	};
+	class TStation //Combat
+	{
+		dlc = "332nd";
+		name = "53. TStation (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\TStation.ogg",
+			1,
+			1
+		};
+		duration = 279;
+	};
+	class Wonderous //Combat
+	{
+		dlc = "332nd";
+		name = "52. Wonderous";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\Wonderous.ogg",
+			1,
+			1
+		};
+		duration = 152;
+	};
+	class LoveandWill //Combat
+	{
+		dlc = "332nd";
+		name = "52. Love and Will (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\LoveandWill.ogg",
+			1,
+			1
+		};
+		duration = 457;
+	};
+	class FleshandIcecream //Combat
+	{
+		dlc = "332nd";
+		name = "51. Flesh and Ice Cream (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\FleshandIcecream.ogg",
+			1,
+			1
+		};
+		duration = 97;
+	};
+	class RichLeather //Combat
+	{
+		dlc = "332nd";
+		name = "50. Rich Leather (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\RichLeather.ogg",
+			1,
+			1
+		};
+		duration = 83;
+	};
+	class Tazer //Combat
+	{
+		dlc = "332nd";
+		name = "49. Tazer (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\Tazer.ogg",
+			1,
+			1
+		};
+		duration = 283;
+	};
+	class OperationMonkey //Combat
+	{
+		dlc = "332nd";
+		name = "48. Operation Monkey (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\OperationMonkey.ogg",
+			1,
+			1
+		};
+		duration = 287;
+	};
+	class Crickets //Combat
+	{
+		dlc = "332nd";
+		name = "47. Crickets (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\Crickets.ogg",
+			1,
+			1
+		};
+		duration = 278;
+	};
+	class BassBag //Combat
+	{
+		dlc = "332nd";
+		name = "46. BassBag (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\BassBag.ogg",
+			1,
+			1
+		};
+		duration = 274;
+	};
+	class GodMode //Combat
+	{
+		dlc = "332nd";
+		name = "45. GodMode";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\GodMode.ogg",
+			1,
+			1
+		};
+		duration = 177;
+	};
+	class SABER //Combat
+	{
+		dlc = "332nd";
+		name = "44. SABER";
+		musicClass = "Aux332nd_TCW_Music_Combat";
+		sound[] =
+		{
+			"\332nd_music\music\SABER.ogg",
+			1,
+			1
+		};
+		duration = 235;
 	};
 	class Symbiotic //Combat
 	{
@@ -715,10 +973,62 @@ class CfgMusic
 		};
 		duration=89;
 	};
+	class MapsOfTheWorld
+	{
+		dlc = "332nd";
+		name = "5. Maps Of The World (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Calm";
+		sound[] =
+		{
+			"\332nd_music\music\MapsOfTheWorld.ogg",
+			1,
+			1
+		};
+		duration = 152;
+	};
+	class Drizzle
+	{
+		dlc = "332nd";
+		name = "4. Drizzle (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Calm";
+		sound[] =
+		{
+			"\332nd_music\music\Drizzle.ogg",
+			1,
+			1
+		};
+		duration = 286;
+	};
+	class MonkeyBook
+	{
+		dlc = "332nd";
+		name = "3. Monkey Book (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Calm";
+		sound[] =
+		{
+			"\332nd_music\music\MonkeyBook.ogg",
+			1,
+			1
+		};
+		duration = 302;
+	};
+	class RideLawrence
+	{
+		dlc = "332nd";
+		name = "2. Ride Lawrence Ride (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Calm";
+		sound[] =
+		{
+			"\332nd_music\music\RideLawrence.ogg",
+			1,
+			1
+		};
+		duration = 293;
+	};
 	class MasterAaylaSecura
 	{
 		dlc="332nd";
-		name="Jedi Master Aayla Secura - Kevin Kiner";
+		name="1. Jedi Master Aayla Secura - Kevin Kiner";
 		musicClass="Aux332nd_TCW_Music_Calm";
 		sound[]=
 		{
@@ -728,10 +1038,36 @@ class CfgMusic
 		};
 		duration=91;
 	};
+	class ReadyForBattle
+	{
+		dlc = "332nd";
+		name = "3. Ready For Battle (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Standby";
+		sound[] =
+		{
+			"\332nd_music\music\ReadyForBattle.ogg",
+			1,
+			1
+		};
+		duration = 194;
+	};
+	class Shamburger
+	{
+		dlc = "332nd";
+		name = "2. Shamburger (AOE2 DE)";
+		musicClass = "Aux332nd_TCW_Music_Standby";
+		sound[] =
+		{
+			"\332nd_music\music\Shamburger.ogg",
+			1,
+			1
+		};
+		duration = 316;
+	};
 	class LandingonTeth
 	{
 		dlc="332nd";
-		name="Landing on Teth - Kevin Kiner";
+		name="1. Landing on Teth - Kevin Kiner";
 		musicClass="Aux332nd_TCW_Music_Standby";
 		sound[]=
 		{

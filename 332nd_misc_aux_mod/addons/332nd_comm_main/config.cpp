@@ -111,7 +111,7 @@ class RscDisplayMain : RscStandardDisplay
 			idc = -1;
 			text = "Join Server #1";
 			style = 2;
-			onbuttonclick = "connectToServer ['45.13.247.214', 2322, '332nd']";
+			onbuttonclick = "connectToServer ['45.13.247.46', 2322, '332nd']";
 			colorBackground[] = { 0, 0, 0, 0.7 };
 			colorBackgroundActive[] = { 1,0,0, 0,2 };
 			soundEnter[] = { "\332nd_main\ui\Hover_Sound.ogg",0.3,1 };
@@ -129,7 +129,7 @@ class RscDisplayMain : RscStandardDisplay
 			idc = -1;
 			text = "Join Server #2";
 			style = 2;
-			onbuttonclick = "connectToServer ['45.13.247.214', 2332, '332nd']";
+			onbuttonclick = "connectToServer ['45.13.247.46', 2332, '332nd']";
 			colorBackground[] = { 0, 0, 0, 0.7 };
 			colorBackgroundActive[] = { 1,0,0, 0,2 };
 			soundEnter[] = { "\332nd_main\ui\Hover_Sound.ogg",0.3,1 };
@@ -147,7 +147,7 @@ class RscDisplayMain : RscStandardDisplay
 			idc = -1;
 			text = "Join the Liberation Server";
 			style = 2;
-			onbuttonclick = "connectToServer ['45.13.247.214', 2362, '332nd']";
+			onbuttonclick = "connectToServer ['45.13.247.46', 2362, '332nd']";
 			colorBackground[] = { 0, 0, 0, 0.7 };
 			colorBackgroundActive[] = { 1,0,0, 0,2 };
 			soundEnter[] = { "\332nd_main\ui\Hover_Sound.ogg",0.3,1 };
@@ -165,7 +165,7 @@ class RscDisplayMain : RscStandardDisplay
 			idc = -1;
 			text = "Join the Event Server";
 			style = 2;
-			onbuttonclick = "connectToServer ['45.13.247.214', 2342, '332nd']";
+			onbuttonclick = "connectToServer ['45.13.247.46', 2342, '332nd']";
 			colorBackground[] = { 0, 0, 0, 0.7 };
 			colorBackgroundActive[] = { 1,0,0, 0,2 };
 			soundEnter[] = { "\332nd_main\ui\Hover_Sound.ogg",0.3,1 };
